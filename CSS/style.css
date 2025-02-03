@@ -1,11 +1,116 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
     margin: auto;
     height: auto;
     font-family: "Matter" !important;
+}
+
+:root {
+    --sim-light-blue: #3991C9;
+    --sim-light-green: #92BA48;
+    --sim-light-grey: #F2F2F2;
+    --black: #000000;
+    --white: #FFFFFF;
+}
+
+/* Some basic styling for the page */
+
+/* Text-Color */
+
+.sim-light-blue-color {
+    color: var(--sim-light-blue);
+}
+
+.sim-light-green-color {
+    color: var(--sim-light-green);
+}
+
+.sim-light-grey-color {
+    color: var(--sim-light-grey);
+}
+
+.black-color {
+    color: var(--black);
+}
+
+.white-color {
+    color: var(--white);
+}
+
+/* Width Related Styles */
+
+.max-width-1320px {
+    max-width: 1320px;
+}
+
+/* Font-size related styles */
+
+.font-size-56px {
+    font-size: 56px;
+}
+
+.font-size-42px {
+    font-size: 42px;
+}
+
+.font-size-28px {
+    font-size: 28px;
+}
+
+.font-size-24px {
+    font-size: 24px;
+}
+
+.font-size-22px {
+    font-size: 22px;
+}
+
+.font-size-20px {
+    font-size: 20px;
+}
+
+.font-size-18px {
+    font-size: 18px;
+}
+
+/* Font-weight related styles */
+
+.font-weight-800 {
+    font-weight: 800;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+.font-weight-400 {
+    font-weight: 400;
+}
+
+/* Border-Radius related styles */
+
+.border-radius-10px {
+    border-radius: 10px;
+}
+
+.border-radius-5px {
+    border-radius: 5px;
+}
+
+/* Button styles */
+
+.button-bg-green-color-white {
+    background-color: var(--sim-light-green);
+    color: var(--white);
+    border: 2px solid var(--sim-light-green);
 }
