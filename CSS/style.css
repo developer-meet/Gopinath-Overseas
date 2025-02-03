@@ -215,3 +215,59 @@ body {
         width: 100%;
     }
 }
+
+/* Section 3 */
+
+.sec-3 {
+    height: auto;
+    width: 100%;
+    background-image: url(/Assets/Img\ 1.png);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 150px;
+}
+
+.sec-3-main-container {
+    padding: 60px 50px 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1000px) {
+    .body .sec-3 {
+        padding: 80px 80px;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    .sec-3 .sec-3-main-container {
+        padding: 60px 10px 100px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .body .sec-3 {
+        padding: 80px 40px;
+    }
+
+    .sec-3-main-container .sec-3-main-heading {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .body .sec-3 {
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width: 235px) {
+    .body .sec-3 {
+        height: 300px;
+        background-position: center;
+    }
+
+    .sec-3 .sec-3-main-container {
+        display: none;
+    }
+}
