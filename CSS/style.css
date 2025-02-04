@@ -360,4 +360,54 @@ body {
     .body .sec-7 {
         padding: 50px 10px;
     }
+
+    .sec-7 div .sec-7-main-heading {
+        font-size: 30px;
+    }
+}
+
+/* Section 8 */
+
+.sec-8 {
+    padding: 100px 0px;
+    background-image: url(/Assets/Img\ 6.png);
+    background-size: cover;
+}
+
+.sec-8 div p {
+    padding-right: 20%;
+}
+
+.sec-8 div button {
+    width: auto;
+    height: auto;
+}
+
+@media screen and (max-width: 875px) {
+    .sec-8 div {
+        display: block !important;
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec-8 div p {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .sec-8 div button {
+        margin: 10px 0 0 0 !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    @media screen and (max-width: 400px) {
+        .body .sec-8 {
+            padding: 50px 10px;
+        }
+    }
+
+    .sec-8 div p {
+        font-size: 20px;
+    }
 }
