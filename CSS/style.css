@@ -411,3 +411,37 @@ body {
         font-size: 20px;
     }
 }
+
+/* Section 9 */
+
+.sec-9 {
+    padding: 100px 0px;
+}
+
+.sec-9 .sec-9-q1,
+.sec-9-q2,
+.sec-9-q3,
+.sec-9-q4 {
+    box-shadow: 0 0px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 500px) {
+
+    .sec-9 .sec-9-q1,
+    .sec-9-q2 div,
+    .sec-9 .sec-9-q3,
+    .sec-9 .sec-9-q4 {
+        display: block !important;
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .body .sec-9 {
+        padding: 50px 10px !important;
+    }
+
+    .sec-9 .sec-9-main-heading {
+        font-size: 30px;
+    }
+}
