@@ -445,3 +445,202 @@ body {
         font-size: 30px;
     }
 }
+
+/* Section 10 */
+
+.sec-10 {
+    padding: 100px 0px;
+    background-image: url(/Assets/Img\ 7.png);
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec-10-main-container {
+    height: 610px !important;
+    position: relative;
+}
+
+.sec-10-contact-info-sec {
+    background-color: var(--sim-light-blue);
+    padding: 40px;
+    width: 450px;
+    position: absolute;
+    left: 80px;
+    z-index: 1;
+}
+
+.sec-10-lets-connect-sec {
+    background-color: var(--white);
+    width: 1000px !important;
+    height: 610px;
+    position: absolute;
+    right: 63px;
+    z-index: 0;
+    padding: 40px 40px 40px 315px;
+}
+
+.icon-1-img,
+.icon-2-img,
+.icon-3-img {
+    height: 60px;
+    min-width: 60px;
+    border-radius: 50px;
+    background-color: hsla(0, 0%, 100%, 0.1);
+}
+
+.icon-4-img,
+.icon-5-img,
+.icon-6-img,
+.icon-7-img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: var(--sim-light-green);
+}
+
+.sec-10-form-1 input,
+.sec-10-form-2 input {
+    width: 48%;
+    height: 60px;
+    border: none;
+    background-color: var(--sim-light-grey);
+    outline: none;
+}
+
+.sec-10-textarea-sec {
+    max-height: 110px;
+    border: none;
+    background-color: var(--sim-light-grey);
+    outline: none;
+}
+
+@media screen and (max-width: 1350px) {
+
+    .body .sec-10 {
+        padding: 20px;
+    }
+
+    .sec-10 .sec-10-main-container {
+        display: block !important;
+        height: auto !important;
+        width: 100% !important;
+        position: static !important;
+    }
+
+    .sec-10-main-container .sec-10-contact-info-sec {
+        width: 100% !important;
+        height: auto !important;
+        position: static;
+    }
+
+    .sec-10-contact-info-sec .contact-info-sec-main-heading {
+        text-align: center !important;
+    }
+
+    .sec-10-main-container .sec-10-lets-connect-sec {
+        width: 100% !important;
+        height: auto !important;
+        position: static;
+        padding-left: 40px !important;
+    }
+
+    .sec-10-lets-connect-sec .lets-connect-sec-main-heading {
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .sec-10-main-container .sec-10-contact-info-sec {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .body .sec-10 {
+        padding: 20px 10px;
+    }
+
+    .sec-10-main-container .sec-10-contact-info-sec {
+        padding: 10px;
+    }
+
+    .sec-10-contact-info-sec .contact-info-sec-main-heading {
+        font-size: 30px;
+    }
+
+    .sec-10-lets-connect-sec .lets-connect-sec-main-heading {
+        font-size: 30px;
+    }
+
+    .sec-10-contact-info-sec div .icon-1-img,
+    .sec-10-contact-info-sec div .icon-2-img,
+    .sec-10-contact-info-sec div .icon-3-img {
+        height: 40px !important;
+        min-width: 40px !important;
+    }
+
+    .icon-4-img,
+    .icon-5-img,
+    .icon-6-img,
+    .icon-7-img {
+        height: 40px;
+        width: 40px;
+        border-radius: 50px;
+        background-color: var(--sim-light-green);
+    }
+
+    .sec-10-lets-connect-sec div .sec-10-form-1,
+    .sec-10-lets-connect-sec div .sec-10-form-1 input {
+        display: block !important;
+        width: 100%;
+    }
+
+    .sec-10-lets-connect-sec div .sec-10-form-1 input {
+        margin-top: 24px;
+    }
+
+    .sec-10-lets-connect-sec button {
+        width: 100%;
+        margin: 24px auto 0 !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .sec-10-contact-info-sec .contact-info-sec-mobile-sec,
+    .sec-10-contact-info-sec .contact-info-sec-email-sec,
+    .sec-10-contact-info-sec .contact-info-sec-address-sec {
+        display: block !important;
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec-10-contact-info-sec div .icon-1-img,
+    .sec-10-contact-info-sec div .icon-2-img,
+    .sec-10-contact-info-sec div .icon-3-img {
+        margin-right: 0px !important;
+    }
+
+    .sec-10-contact-info-sec .contact-info-sec-email-sec div .sec-10-email-value {
+        width: auto !important;
+    }
+
+    .sec-10-contact-info-sec .sec-10-social-media-icon {
+        justify-content: space-between !important;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .sec-10-main-container .sec-10-contact-info-sec {
+        padding: 3px;
+    }
+}
+
+
+/* Footer Section */
+
+.footer-sec {
+    height: 60px;
+    background-color: var(--sim-light-green);
+}
